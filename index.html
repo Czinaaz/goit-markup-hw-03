@@ -12,7 +12,7 @@
     rel="stylesheet">
   </head>
 
-  <body lang="pl" class="wrapper">
+  <body lang="pl" class="container">
     <header>
       <a class="logo-top" href="./index.html"><span>Web</span>Studio</a>
       <nav>
@@ -32,34 +32,39 @@
       <section class="hero">
         <div class="main-part">
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button">Zamów usługe</button>
+          <div class="button-hero"><button type="button">Zamów usługe</button></div>
         </div>
       </section>
 
       <!--OPIS-->
 
-      <section>
-        <div class="text">
-          <ul>
-            <li><b>LOREM IPSUM</b></li>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+      <section class="section">
+        <div class="text"> 
+          <ul class="text-set">
+            <li class="text-item">
+              <b>LOREM IPSUM</b>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Nam velarcu sem. Sed non sodales dui. Interdum et malesuada</p>
             </li>
-            <li><b>LOREM IPSUM</b></li>
-            <li>
+            <li class="text-item">
+              <b>LOREM IPSUM</b>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+           </li>
+            <li class="text-item">
+              <b>LOREM IPSUM</b>
+              <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
             </li>
-            <li><b>LOREM IPSUM</b></li>
-            <li>
+            <li class="text-item">
+              <b>LOREM IPSUM</b>
+              <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
-            </li>
-            <li><b>LOREM IPSUM</b></li>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
             </li>
           </ul>
         </div>
@@ -67,11 +72,11 @@
 
       <!--ZAWÓD-->
 
-      <section>
+      <section class="section">
         <div class="business">
           <h2 class="business-head">Czym się zajmujemy</h2>
-          <ul>
-            <li>
+          <ul class="business-list">
+            <li class="business-head-item">
               <img
                 src="images/imgpic1.jpg"
                 alt="Programer working"
@@ -79,7 +84,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="business-head-item">
               <img
                 src="images/imgpic2.jpg"
                 alt="Frontend developer"
@@ -87,7 +92,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="business-head-item">
               <img
                 src="images/imgpic3.jpg"
                 alt="Web design"
@@ -101,64 +106,64 @@
 
       <!--O NAS-->
 
-      <section>
-        <div class="staff">
-          <h2 class="staff-head">Nasz zespół</h2>
-          <ul>
-            <li>
+    
+      <div class="staff">
+        <h2 class="staff-head">Nasz zespół</h2>
+        <ul class="staff-list">
+            <li class="staff-item">
               <img
                 src="images/imgzes1.jpg"
                 alt="Product Designer"
                 width="270"
                 height="260"
               />
+              <b>John Doe</b>
+              <p>Product Designer</p>
             </li>
-            <li>
+            <li class="staff-item">
               <img
                 src="images/imgzes2.jpg"
                 alt="Frontend Developer"
                 width="270"
                 height="260"
               />
+              <b>John Doe</b>
+              <p>Frontend Developer</p>
             </li>
-            <li>
+            <li class="staff-item">
               <img
                 src="images/imgzes3.jpg"
                 alt="Marketing"
                 width="270"
                 height="260"
               />
+              <b>John Doe</b>
+              <p>Marketing</p>
             </li>
-            <li>
+            <li class="staff-item">
               <img
                 src="images/imgzes4.jpg"
                 alt="UI Designer"
                 width="270"
                 height="260"
               />
+              <b>John Doe</b>
+              <p>UI Designer</p>
             </li>
-          </ul>
-          <ul>
-            <li><b>John Doe</b></li>
-            <li>Product Designer</li>
-            <li><b>John Doe</b></li>
-            <li>Frontend Developer</li>
-            <li><b>John Doe</b></li>
-            <li>Marketing</li>
-            <li><b>John Doe</b></li>
-            <li>UI Designer</li>
-          </ul>
-        </div>
-      </section>
+        </ul>
+      </div>
+      
     </main>
 
     <footer>
-      <a class="logo-bottom" href="index.html"><span>Web</span>Studio</a>
-      <address class="address">
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <p class="link-footer1">info@example.com</p>
-        <p class="link-footer2">+48 111 111 111</p>
-      </address>
+      <div class="footer">
+        <a class="logo-bottom" href="index.html"><span>Web</span>Studio</a>
+        <address class="address">
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p class="link-footer1">info@example.com</p>
+          <p class="link-footer2">+48 111 111 111</p>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
