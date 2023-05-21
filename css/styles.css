@@ -14,7 +14,6 @@
 .container {
     max-width: 1200px;
     justify-content: center;
-    display: flexbox;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,7 +24,8 @@ header {
     font-size: 16px;
     line-height: 1.14;
     text-decoration: none;
-    border: 5px #757575;
+    border-bottom: 1px solid #ECECEC;
+    
 }
 
 .logo-top {
@@ -35,6 +35,7 @@ header {
     margin-top: 24px;
     margin-bottom: 25px;
     margin-left: 215px;
+    font-family:'Raleway';
     
 }
 .logo-top span {
@@ -45,6 +46,7 @@ header {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
+    text-decoration: none;
 }
 .link-nav:hover {
     color: #2196F3;
@@ -52,7 +54,7 @@ header {
 .link-passive1 {
     color: #757575;
     font-size: 14px;
-    
+    text-decoration: none;
      
 }
 .link-passive1:hover {
@@ -61,6 +63,7 @@ header {
 .link-passive2 {
     color: #757575;
     font-size: 14px;
+    text-decoration: none;
       
 }
 .link-passive2:hover {
@@ -75,7 +78,6 @@ body {
      
 }
 .section {
-    display:flexbox;
     padding-top: 94px;
     padding-bottom: 94px;
         
@@ -96,6 +98,10 @@ button {
     border-radius: 4px;
 
 }
+.button {
+    padding-inline: 8px;
+
+}
 
 .button-head {
     padding-bottom: 34px;
@@ -112,7 +118,6 @@ button:hover {
 
 .image-list {
     display: flex;
-    padding: 30px;
     flex-wrap:wrap;
     list-style:inside;
   
@@ -121,7 +126,14 @@ button:hover {
 .item {
     flex-basis: calc(100%  / 3);
     border: #757575;
+    padding: 15px;
 
+}
+
+.item-text {
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .item h2{
@@ -152,8 +164,7 @@ footer {
     line-height: 1.14;
     text-decoration: none;
     color: #FFFFFF;
-    display: flexbox;
-
+    
 }
 
 .footer {
@@ -165,7 +176,7 @@ footer {
     color: #FFFFFF;
     font-weight: 700;
     text-decoration: none;
-    
+    font-family:'Raleway';
         
 }
 .logo-bottom span {
@@ -178,10 +189,11 @@ footer {
 }
 .link-bottom1 {
     color: #757575;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 14px;
     padding-top: 9px;
     padding-bottom: 9px;
+
     
    
 }
