@@ -18,8 +18,6 @@ img {
 .container {
     max-width: 1200px;
     justify-content: center;
-    display: flex;
-    background: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,16 +28,27 @@ header {
     line-height: 1.14;
     text-decoration: none;
 }
+header li {
+    padding-inline: 10px;
+}
 
+.head-left {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 364px;
+}
 
+.head-right {
+    display: flex;
+    justify-content: space-between;
+}
 .logo-top {
     color: #000000;
     font-weight: 700;
     text-decoration: none;
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-left: 215px;
     font-family:'Raleway';
+    padding-top: 24px;
+    padding-bottom: 25px;
     
 }
 .logo-top span {
@@ -51,6 +60,8 @@ header {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
+    padding-top: 32px;
+    padding-bottom: 32px;
    
 }
 .link-nav:hover {
@@ -61,6 +72,8 @@ header {
     color: #757575;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
      
 }
@@ -71,6 +84,8 @@ header {
     color: #757575;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
       
 }
 .link-passive2:hover {
@@ -99,8 +114,7 @@ body {
     justify-content: center;
     padding-top: 200px;
     padding-bottom: 30px;
-    padding-left: 452px;
-    padding-right: 452px;
+    
 }
 
 .hero h1 {
@@ -227,21 +241,22 @@ h2 {
 }
 
 .staff-item{
-    margin-inline: 30px;
     background: #FFFFFF;
-    padding: 0%;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    max-width: fit-content;
+    margin-inline: 10px;
+    
 }
 
 .staff-list {
     display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    margin: auto;
-    padding-bottom: 94px;
+    flex-wrap: wrap;
+    list-style: none;
     max-width: fit-content;
-    
+    margin: auto;
+    align-items: stretch;
+    padding: 0px;    padding-bottom: 94px;
 }
 
 
@@ -272,24 +287,24 @@ footer {
     font-size: 16px;
     line-height: 1.14;
     text-decoration: none;
-    color: #FFFFFF;
-    
-   
+    color: #FFFFFF; 
+        
 }
+
 .footer {
-    padding-left: 215px;
     padding-top: 60px;
     padding-bottom: 60px;
+    justify-content: space-between;
+    
 }
 
 .logo-bottom {
     color: #FFFFFF;
     font-weight: 700;
     text-decoration: none;
-    font-family:'Raleway';
-    
-       
+    font-family:'Raleway';       
 }
+
 .logo-bottom span {
     color: #2196F3;
 
@@ -302,10 +317,10 @@ footer {
 
 .link-footer1 {
     color: #757575;
-    padding-bottom: 9px;
-    padding-top: 9px;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
    
 }
 .link-footer1:hover {
@@ -314,8 +329,6 @@ footer {
 .link-footer2 {
     color: #757575;
     font-size: 14px;
-    padding-bottom: 9px;
-    padding-top: 9px;
     text-decoration: none;
 }
 .link-footer2:hover {
@@ -325,6 +338,4 @@ footer {
 
 li {
     display: inline;
-    padding: 5px;
-    
 }

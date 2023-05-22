@@ -12,23 +12,27 @@
     rel="stylesheet">
   </head>
   <body lang="pl">
-    <header>
-      <a class="logo-top" href="./index.html"><span>Web</span>Studio</a>
-        <nav>
+    <header class="container">
+      <div class="head-left">
+          <a class="logo-top" href="./index.html"><span>Web</span>Studio</a>
           <ul>
-            <li><a class="link-nav" href="./index.html">Agencja</a></li>
-            <li><a class="link-nav" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="link-nav" href="#">Kontakt</a></li>
+              <li><a class="link-nav" href="./index.html">Agencja</a></li>
+              <li><a class="link-nav" href="#">Portfolio</a></li>
+              <li><a class="link-nav" href="#">Kontakt</a></li>
           </ul>
-        </nav>
-       <a class="link-passive1" href="#">info@devstudio.com</a>
-      <a class="link-passive2" href="tel:48111111111">+48 111 111 111</a>
-    </header>
+      </div>
+      <div class="head-right">
+          <ul>
+              <li><a class="link-passive1" href="#">info@devstudio.com</a></li>
+              <li><a class="link-passive2" href="tel:48111111111">+48 111 111 111</a></li>
+          </ul>
+      </div>
+</header>    
 
     <main>
       <!--HERO-->
 
-      <div>
+      <div class="container">
         <div>
           <div class="hero">
             <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
@@ -111,7 +115,7 @@
 
       <!--O NAS-->
 
-    
+    <div class="container">
       <div class="staff">
         <h2 class="staff-head">Nasz zespół</h2>
         <ul class="staff-list">
@@ -153,17 +157,34 @@
             </li>
         </ul>
       </div>
+    </div>
       
     </main>
 
-    <footer>
+    <footer class="container">
       <div class="footer">
-        <a class="logo-bottom" href="index.html"><span>Web</span>Studio</a>
-        <address class="address">
-          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-          <p class="link-footer1">info@example.com</p>
-          <p class="link-footer2">+48 111 111 111</p>
-        </address>
+        <div>
+          <ul>
+            <li>
+              <p class="logo-bottom" href="index.html"><span>Web</span>Studio</p>
+            </li>
+          </ul> 
+        </div>
+        <div>
+          <address class="address">
+            <ul>
+            <li>
+              <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+            </li>
+            <li>
+              <p class="link-footer1">info@example.com</p>
+            </li>
+            <li>
+              <p class="link-footer2">+48 111 111 111</p>
+            </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>

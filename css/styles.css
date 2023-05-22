@@ -14,8 +14,7 @@
 .container {
     max-width: 1200px;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 
 header {
@@ -28,14 +27,28 @@ header {
     
 }
 
+header li {
+    padding-inline: 10px;
+}
+.head-left {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 364px;
+}
+
+.head-right {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo-top {
     color: #000000;
     font-weight: 700;
     text-decoration: none;
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-left: 215px;
     font-family:'Raleway';
+    padding-top: 24px;
+    padding-bottom: 25px;
+   
     
 }
 .logo-top span {
@@ -47,6 +60,8 @@ header {
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .link-nav:hover {
     color: #2196F3;
@@ -55,6 +70,8 @@ header {
     color: #757575;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
      
 }
 .link-passive1:hover {
@@ -64,6 +81,8 @@ header {
     color: #757575;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
       
 }
 .link-passive2:hover {
@@ -168,10 +187,12 @@ footer {
 }
 
 .footer {
-    padding-left: 215px;
     padding-top: 60px;
     padding-bottom: 60px;
+    justify-content: space-between;
+    
 }
+
 .logo-bottom {
     color: #FFFFFF;
     font-weight: 700;
@@ -210,7 +231,6 @@ footer {
 
 li {
     display: inline;
-    padding: 5px;
     
 }
  
