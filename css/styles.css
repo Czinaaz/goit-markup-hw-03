@@ -7,14 +7,9 @@
 *{
     font-family: 'Roboto', 'Raleway' sans-serif;
     margin: auto;
-    max-width: 1600px;       
+         
 }
 
-*{
-    font-family: 'Roboto', 'Raleway' sans-serif;
-    margin: auto;
-    max-width: 1600px;
-}
 
 .container {
     max-width: 1200px;
