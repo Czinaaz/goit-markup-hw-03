@@ -7,6 +7,7 @@
 *{
     font-family: 'Roboto', 'Raleway' sans-serif;
     margin: auto;
+    max-width: 1600px;
      
 }
 img {
@@ -21,14 +22,14 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-header {
+.head {
     display: flex;
     color: #212121;
     font-size: 16px;
     line-height: 1.14;
     text-decoration: none;
 }
-header li {
+.head li {
     padding-inline: 10px;
 }
 
@@ -114,6 +115,7 @@ body {
     justify-content: center;
     padding-top: 200px;
     padding-bottom: 30px;
+    max-width: 1600px;
     
 }
 
